@@ -1,0 +1,14 @@
+{
+    "name": "hp/jour02",
+    "autoload": {
+        "psr-4": {
+            "Hp\\Jour02\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "y"
+        }
+    ],
+    "require": {}
+}
