@@ -1,16 +1,19 @@
 {
-    "name": "hp/jour02",
-    "autoload": {
-        "psr-4": {
-            "Hp\\Jour02\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "y"
-        }
-    ],
-    "require-dev": {
-        "phpunit/phpunit": "^9.6"
+  "name": "hp/jour02",
+  "autoload": {
+    "psr-4": {
+      "Hp\\Jour02\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "y"
+    }
+  ],
+  "scripts": {
+    "test": "phpunit tests/"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  }
 }
